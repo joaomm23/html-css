@@ -7,17 +7,28 @@
     <style>
         body {
             height: 100vh;
+
+            /* isso aqui em baixo */
+
             background-color: black;
             background-image: url(imagens-cap19/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: repeat;
+            background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
+
+            /* é isso ou melhor tem tmb as mesmas versoes
+
+            /* Shorthand  -  background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens-cap19/wallpaper002.jpg') center top no-repeat cover fixed;
         }
 
         div {
             background-color: lightgray;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border-radius: 10px;
