@@ -17,14 +17,15 @@
 
       :root {
         --font01: Verdana, Geneva, Tahoma, sans-serif;
-        --font02: "Passion One", sans-serif;
+        --font02: "Passion One", cursive;
         --font03: "Sriracha", cursive;
       }
 
       body {
+        padding: 0px;
         margin: 0px;
         font-family: var(--font01);
-        width: 100%;
+        min-height: 100vh;
       }
 
       img {
@@ -50,6 +51,10 @@
       a {
         text-decoration: none;
         color: white;
+        font: normal 17pt "Passion One", sans-serif;
+      }
+
+      #link {
         font: normal 20pt "Passion One", sans-serif;
       }
 
@@ -65,8 +70,7 @@
       }
 
       p {
-        font: normal 34pt var(--font03);
-        width: 70%;
+        font-size: 3.5vw;
       }
 
       #pd {
@@ -77,13 +81,12 @@
         background: black url(imagens/background001.jpg) center top no-repeat
           fixed;
         background-size: cover;
-        width: 100%;
       }
 
       .color {
         margin-right: 720px;
         color: white;
-        background-image: linear-gradient(to right, black, rgb(36, 36, 36));
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.459), rgba(36, 36, 36, 0.459));
       }
 
       #imagem02 {
@@ -111,7 +114,7 @@
       <h1>Cordel Moderno</h1>
       <p id="pd">
         Por
-        <a href="https://www.recantodasletras.com.br/poesias/3186743"
+        <a id="link" href="https://www.recantodasletras.com.br/poesias/3186743"
           >Milton Duarte</a
         >
       </p>
@@ -187,6 +190,6 @@
         Deixe que Deus interprete. <br />
       </p>
     </div>
-    <footer>Site criado por João Miguel.</footer>
+    <footer>Site criado por <a id="meulink" href="https://github.com/joaomm23/html-css">João Miguel</a>.</footer>
   </body>
 </html>
