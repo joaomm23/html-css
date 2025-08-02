@@ -15,7 +15,7 @@ main {
     height: 97vh;
 }
 
-#telefone {
+#tel {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,7 +35,7 @@ main {
 }
 
 img {
-    width: 50px;
+    width: 40px;
     margin: 10px;
     border-radius: 50px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
